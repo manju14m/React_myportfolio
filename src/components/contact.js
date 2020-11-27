@@ -2,7 +2,7 @@ import React from 'react'
 import mobile from '../media/mobile.png'
 import mail from '../media/mail.jpg'
 
-export default function (){
+export default function Contact (){
     return(
         <div id="contact">
             <div className="contact-me">
