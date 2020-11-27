@@ -1,12 +1,12 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom'
+// import {NavLink} from 'react-router-dom'
 // import '../App.css'
 
 export default function Navbar() {
     return(
         <div>
             <div className="topcontrol">
-                <i className="fa fa-angle-up" aria-hidden="true" onclick="topFunction()"></i>
+                <i className="fa fa-angle-up" aria-hidden="true"></i>
             </div>
             <div id="navbar">
                 {/* <NavLink to="#skills">About</NavLink>

@@ -11,10 +11,10 @@ return(
             <h3><i>a web developer</i></h3>
             <p style={{margin:"20px"}}>
                 <a style={{marginRight:"30px"}} className="image" title="Linkedin Prolife" href="https://www.linkedin.com/in/manjunatha-m-b1647a109/" target="_blank">
-                    <img src={linkedin} />
+                    <img src={linkedin} alt="linkedin" />
                 </a>
                 <a className="image" title="GitHub Prolife" href="https://github.com/manju14m" target="_blank">
-                    <img src={git} />
+                    <img src={git} alt="git" />
                 </a>
             </p>
             <div className="seemore">

@@ -1,5 +1,7 @@
 import React from 'react'
 // import '../App.css'
+
+
 import java from '../media/java.png'
 import html from '../media/html.png'
 import css from '../media/css.png'
@@ -16,8 +18,8 @@ export default function Skills(){
             <h4 className="heading">my proficiencies are:</h4>
             <div className="skill">
                 {
-                    skill.map(skill=>(
-                        <img src={skill} />
+                    skill.map((skill,pos)=>(
+                        <img src={skill} alt="skill" key={pos}/>
                  ))
                 } 
             </div>   

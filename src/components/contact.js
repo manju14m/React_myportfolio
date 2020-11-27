@@ -9,11 +9,11 @@ export default function Contact (){
                 <h4 className="heading">Contact Me..</h4> 
                 <br/>
                 <div>
-                    <img className="contact-image" src={mobile} />: +91 74065 64001
+                    <img className="contact-image" src={mobile} alt="mobile" />: +91 74065 64001
                 </div>
                 <br/>
                 <div>
-                    <img className="contact-image" src={mail} />: manju14m@hotmail.com
+                    <img className="contact-image" src={mail} alt="mail" />: manju14m@hotmail.com
                 </div>
             </div>
             <div className="contact-form">
@@ -29,7 +29,7 @@ export default function Contact (){
                         <strong style={{color:"green"}}>Thank you!</strong>
                         <p style={{color:"rgb(67, 67, 73)",fontWeight: "100"}}>Your message has been sent successfully.</p>
                         <p style={{color:"rgb(55, 94, 5)"}}>I will contact you very soon!</p> */}
-                        <a  style={{fontSize: "20px",cursor:"pointer",color:"blue"}} onclick="contcatForm()" >Go to Contact Form</a>
+                        <a  style={{fontSize: "20px",cursor:"pointer",color:"blue"}} >Go to Contact Form</a>
                     </div>
                 </div>
             </div>

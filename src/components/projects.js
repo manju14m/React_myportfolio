@@ -1,5 +1,4 @@
 import React from 'react'
-import '../App.css'
 
 export default function Project(){
 return(
@@ -8,22 +7,22 @@ return(
         <div className="grid1">
             <div>
                 <a href= "https://manju-react-todolist.netlify.app">
-                    <img  src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png" />
+                    <img  src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png" alt="project" />
                 </a>
             </div>
             <div>
-                <a>
-                    <img  src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png" />
+                <a href= "https://manju-react-todolist.netlify.app">
+                    <img  src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png" alt="project" />
                 </a>
             </div>
             <div>
-                <a>
-                    <img src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png" />
+                <a href= "https://manju-react-todolist.netlify.app">
+                    <img src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png" alt="project" />
                 </a>
             </div>
             <div>
-                <a>
-                    <img src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png" />
+                <a href= "https://manju-react-todolist.netlify.app">
+                    <img src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png" alt="project" />
                 </a>
             </div>
         </div>
